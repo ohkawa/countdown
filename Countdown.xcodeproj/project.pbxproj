@@ -54,6 +54,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB03F5F199F5C3C001111B2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1EB03F60199F5C50001111B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1EB03F61199F5C58001111B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		1EF33914199F3CC5007AB4D8 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +96,9 @@
 		1EF3391F199F3CC5007AB4D8 /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				1EB03F61199F5C58001111B2 /* Model */,
+				1EB03F60199F5C50001111B2 /* View */,
+				1EB03F5F199F5C3C001111B2 /* Base */,
 				1EF33922199F3CC5007AB4D8 /* AppDelegate.swift */,
 				1EF33924199F3CC5007AB4D8 /* ViewController.swift */,
 				1EF33926199F3CC5007AB4D8 /* Main.storyboard */,
@@ -397,6 +421,7 @@
 				1EF3393B199F3CC5007AB4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EF3393C199F3CC5007AB4D8 /* Build configuration list for PBXNativeTarget "CountdownTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +430,7 @@
 				1EF3393E199F3CC5007AB4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
