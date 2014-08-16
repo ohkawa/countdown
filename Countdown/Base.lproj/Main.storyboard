@@ -52,7 +52,7 @@
         <!--Root View Controller-->
         <scene sceneID="bO9-RG-lCq">
             <objects>
-                <tableViewController id="tvR-jU-jjG" sceneMemberID="viewController">
+                <tableViewController id="tvR-jU-jjG" customClass="EditViewController" customModule="Countdown" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="YrF-3s-Sk2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="Qos-Aa-JDq">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="f5c-tu-Nvd"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="f5c-tu-Nvd">
+                            <connections>
+                                <action selector="didCancel:" destination="tvR-jU-jjG" id="YEz-yU-6Hq"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="BQq-1i-DYu"/>
                     </navigationItem>
                 </tableViewController>
