@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5583C319A1FD5F00E9A71D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5583C219A1FD5F00E9A71D /* Event.swift */; };
+		1E5583C519A204FD00E9A71D /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5583C419A204FD00E9A71D /* EventListViewController.swift */; };
+		1E5583C719A2055600E9A71D /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5583C619A2055600E9A71D /* BasicViewController.swift */; };
+		1E5583CA19A20D1300E9A71D /* AppDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5583C919A20D1300E9A71D /* AppDefinition.swift */; };
 		1EB03F65199F5EE7001111B2 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB03F64199F5EE7001111B2 /* EditViewController.swift */; };
+		1EB03F6D199FA75A001111B2 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EB03F6C199FA75A001111B2 /* TitleCell.xib */; };
+		1EB03F6F199FA85C001111B2 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB03F6E199FA85C001111B2 /* TitleCell.swift */; };
+		1EB03F71199FAFEB001111B2 /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EB03F70199FAFEB001111B2 /* DateCell.xib */; };
+		1EB03F73199FB025001111B2 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB03F72199FB025001111B2 /* DateCell.swift */; };
+		1EB03F75199FB268001111B2 /* DatePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EB03F74199FB268001111B2 /* DatePickerCell.xib */; };
+		1EB03F77199FB276001111B2 /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB03F76199FB276001111B2 /* DatePickerCell.swift */; };
+		1EB03F79199FB5FE001111B2 /* UrlCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EB03F78199FB5FE001111B2 /* UrlCell.xib */; };
+		1EB03F7B199FB758001111B2 /* UrlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB03F7A199FB758001111B2 /* UrlCell.swift */; };
+		1EB03F7F199FBDFC001111B2 /* BasicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB03F7E199FBDFC001111B2 /* BasicTableViewController.swift */; };
 		1EF33923199F3CC5007AB4D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF33922199F3CC5007AB4D8 /* AppDelegate.swift */; };
 		1EF33925199F3CC5007AB4D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF33924199F3CC5007AB4D8 /* ViewController.swift */; };
 		1EF33928199F3CC5007AB4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF33926199F3CC5007AB4D8 /* Main.storyboard */; };
@@ -26,7 +39,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E5583C219A1FD5F00E9A71D /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Model/Event.swift; sourceTree = "<group>"; };
+		1E5583C419A204FD00E9A71D /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventListViewController.swift; path = View/EventListViewController.swift; sourceTree = "<group>"; };
+		1E5583C619A2055600E9A71D /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicViewController.swift; path = Base/BasicViewController.swift; sourceTree = "<group>"; };
+		1E5583C919A20D1300E9A71D /* AppDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDefinition.swift; sourceTree = "<group>"; };
 		1EB03F64199F5EE7001111B2 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditViewController.swift; path = View/EditViewController.swift; sourceTree = "<group>"; };
+		1EB03F6C199FA75A001111B2 /* TitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		1EB03F6E199FA85C001111B2 /* TitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		1EB03F70199FAFEB001111B2 /* DateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
+		1EB03F72199FB025001111B2 /* DateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		1EB03F74199FB268001111B2 /* DatePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerCell.xib; sourceTree = "<group>"; };
+		1EB03F76199FB276001111B2 /* DatePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCell.swift; sourceTree = "<group>"; };
+		1EB03F78199FB5FE001111B2 /* UrlCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UrlCell.xib; sourceTree = "<group>"; };
+		1EB03F7A199FB758001111B2 /* UrlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlCell.swift; sourceTree = "<group>"; };
+		1EB03F7E199FBDFC001111B2 /* BasicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicTableViewController.swift; path = Base/BasicTableViewController.swift; sourceTree = "<group>"; };
 		1EF3391D199F3CC5007AB4D8 /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF33921199F3CC5007AB4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EF33922199F3CC5007AB4D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +82,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5583C819A20D0300E9A71D /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				1E5583C919A20D1300E9A71D /* AppDefinition.swift */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
 		1EB03F5F199F5C3C001111B2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1EB03F7E199FBDFC001111B2 /* BasicTableViewController.swift */,
+				1E5583C619A2055600E9A71D /* BasicViewController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -66,7 +102,9 @@
 		1EB03F60199F5C50001111B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1EB03F67199FA5F3001111B2 /* Parts */,
 				1EB03F64199F5EE7001111B2 /* EditViewController.swift */,
+				1E5583C419A204FD00E9A71D /* EventListViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -74,8 +112,25 @@
 		1EB03F61199F5C58001111B2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1E5583C219A1FD5F00E9A71D /* Event.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		1EB03F67199FA5F3001111B2 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				1EB03F6C199FA75A001111B2 /* TitleCell.xib */,
+				1EB03F6E199FA85C001111B2 /* TitleCell.swift */,
+				1EB03F70199FAFEB001111B2 /* DateCell.xib */,
+				1EB03F72199FB025001111B2 /* DateCell.swift */,
+				1EB03F74199FB268001111B2 /* DatePickerCell.xib */,
+				1EB03F76199FB276001111B2 /* DatePickerCell.swift */,
+				1EB03F78199FB5FE001111B2 /* UrlCell.xib */,
+				1EB03F7A199FB758001111B2 /* UrlCell.swift */,
+			);
+			name = Parts;
+			path = View/Parts;
 			sourceTree = "<group>";
 		};
 		1EF33914199F3CC5007AB4D8 = {
@@ -99,6 +154,7 @@
 		1EF3391F199F3CC5007AB4D8 /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				1E5583C819A20D0300E9A71D /* Definition */,
 				1EB03F61199F5C58001111B2 /* Model */,
 				1EB03F60199F5C50001111B2 /* View */,
 				1EB03F5F199F5C3C001111B2 /* Base */,
@@ -217,7 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF33928199F3CC5007AB4D8 /* Main.storyboard in Resources */,
+				1EB03F79199FB5FE001111B2 /* UrlCell.xib in Resources */,
 				1EF3392A199F3CC5007AB4D8 /* Images.xcassets in Resources */,
+				1EB03F75199FB268001111B2 /* DatePickerCell.xib in Resources */,
+				1EB03F6D199FA75A001111B2 /* TitleCell.xib in Resources */,
+				1EB03F71199FAFEB001111B2 /* DateCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,9 +295,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EB03F6F199FA85C001111B2 /* TitleCell.swift in Sources */,
+				1E5583C319A1FD5F00E9A71D /* Event.swift in Sources */,
+				1EB03F73199FB025001111B2 /* DateCell.swift in Sources */,
 				1EB03F65199F5EE7001111B2 /* EditViewController.swift in Sources */,
 				1EF33925199F3CC5007AB4D8 /* ViewController.swift in Sources */,
+				1E5583C519A204FD00E9A71D /* EventListViewController.swift in Sources */,
+				1E5583C719A2055600E9A71D /* BasicViewController.swift in Sources */,
 				1EF33923199F3CC5007AB4D8 /* AppDelegate.swift in Sources */,
+				1E5583CA19A20D1300E9A71D /* AppDefinition.swift in Sources */,
+				1EB03F77199FB276001111B2 /* DatePickerCell.swift in Sources */,
+				1EB03F7F199FBDFC001111B2 /* BasicTableViewController.swift in Sources */,
+				1EB03F7B199FB758001111B2 /* UrlCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

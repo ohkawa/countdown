@@ -23,31 +23,39 @@
             </objects>
             <point key="canvasLocation" x="1283" y="400"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="8FB-tM-U1F">
+        <!--Event List View Controller-->
+        <scene sceneID="BK0-KD-c7b">
             <objects>
-                <viewController id="51I-9B-lAK" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="d5r-Ft-zSy"/>
-                        <viewControllerLayoutGuide type="bottom" id="AOb-ow-VvW"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bN8-Ia-7pJ">
+                <tableViewController id="SzM-Kj-2nf" customClass="EventListViewController" customModule="Countdown" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="kSZ-U5-nJ5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Lec-wf-2Yq">
-                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="H6y-Je-oj3">
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="R8i-Kj-RlX">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="R8i-Kj-RlX" id="dIT-le-g7H">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SzM-Kj-2nf" id="4jz-0F-HKh"/>
+                            <outlet property="delegate" destination="SzM-Kj-2nf" id="Bxc-fE-Ufc"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="CCu-1w-1zv">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="agy-vL-3yl">
                             <connections>
-                                <segue destination="dwo-VF-Ctv" kind="presentation" id="oTL-2q-Sl6"/>
+                                <segue destination="dwo-VF-Ctv" kind="presentation" id="KKi-9L-W6e"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="UqY-nr-QpB"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="EAg-Gd-TwD"/>
                     </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wEg-X6-7Ar" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0k6-Ym-4c4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2095" y="-262"/>
+            <point key="canvasLocation" x="2117" y="-262"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="bO9-RG-lCq">
@@ -76,7 +84,11 @@
                                 <action selector="didCancel:" destination="tvR-jU-jjG" id="YEz-yU-6Hq"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="BQq-1i-DYu"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="BQq-1i-DYu">
+                            <connections>
+                                <action selector="didDone:" destination="tvR-jU-jjG" id="Zae-wJ-MDS"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q27-F3-Bit" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -130,7 +142,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="51I-9B-lAK" kind="relationship" relationship="rootViewController" id="FmR-vD-iO8"/>
+                        <segue destination="SzM-Kj-2nf" kind="relationship" relationship="rootViewController" id="stu-fj-FYt"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qKa-B7-FiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
